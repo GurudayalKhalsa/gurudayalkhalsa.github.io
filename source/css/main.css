@@ -1,0 +1,128 @@
+/* General Styles
+*************************/
+
+/** {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+.container{
+  max-width: none;
+}
+
+h1{
+  font-size: 3em;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover{
+  color: #14728f;
+}
+
+/* Header Styles
+**********************/
+
+.page-header{
+  text-align: center;
+  padding: 50px 20px 30px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+}
+
+.page-header h1{
+  font-size: 3.8rem;
+  /*font-weight: 600;*/
+}
+
+
+.nav {
+  display: inline;
+  margin: 0;
+  padding-left: 0;
+}
+
+.nav > li {
+  margin-left: -5px;
+  margin-bottom: 0;
+}
+
+.nav > li, .nav > li > a {
+  display: inline-block;
+}
+
+.nav > li > a {
+  padding: 10px;
+}
+
+/* Content Styles
+***********************/
+
+.page-content h1{ font-size: 3.6rem; }
+.page-content h2{ font-size: 3.1rem; }
+.page-content h3{ font-size: 2.6rem; }
+.page-content h4{ font-size: 2.2rem; }
+.page-content h5{ font-size: 1.8rem; }
+
+
+.article-header{
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.article-header h1{
+  /*text-transform: uppercase;*/
+  font-weight: 600;
+}
+
+.article-header h4{
+
+}
+
+.article-content > p,  .article-content .article-text{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.article-content img, .article-content .article-img{
+  /* taken from Skeleton's .u-max-full-width */
+  max-width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .article .article-header{
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+  }
+
+  .article-content > p,
+  .article-content h1,
+  .article-content h2,
+  .article-content h3, 
+  .article-content ul,
+  .article-content ol,
+  .article .article-text{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .article-content p{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .article-content img{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
