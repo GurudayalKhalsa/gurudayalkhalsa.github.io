@@ -83,7 +83,7 @@ a:hover{
 
 }
 
-.article-content > p,  .article-content .article-text{
+.article-content > p, .article-content .article-text{
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
@@ -104,13 +104,7 @@ a:hover{
     margin-bottom: 7rem;
   }
 
-  .article-content > p,
-  .article-content h1,
-  .article-content h2,
-  .article-content h3, 
-  .article-content ul,
-  .article-content ol,
-  .article .article-text{
+  .article-content > p, .article h1, .article .article-text{
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -122,7 +116,7 @@ a:hover{
   }
 
   .article-content img{
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 }
