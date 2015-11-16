@@ -88,7 +88,7 @@ a:hover{
   margin-bottom: 3rem;
 }
 
-.article-content img, .article-content .article-img{
+.article-content img, .article-img{
   /* taken from Skeleton's .u-max-full-width */
   max-width: 100%;
   box-sizing: border-box;
