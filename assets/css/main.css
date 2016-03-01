@@ -120,3 +120,21 @@ a:hover{
     margin-bottom: 4rem;
   }
 }
+
+/* Specific Styles
+***********************/
+
+.social{
+  margin-top: 40px;
+}
+
+.social ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.social ul li .fa{
+  font-size: 2em;
+  color: #333;
+}
