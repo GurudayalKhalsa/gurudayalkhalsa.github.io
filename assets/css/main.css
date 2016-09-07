@@ -7,12 +7,16 @@
     box-sizing: border-box;
 }*/
 
-.container{
+/*.container{
   max-width: none;
-}
+}*/
 
 h1{
   font-size: 3em;
+}
+
+h5{
+  font-size: 1.3em;
 }
 
 a {
@@ -32,6 +36,8 @@ a:hover{
   border-bottom: 1px solid #eee;
   margin-bottom: 40px;
 }
+
+
 
 .page-header h1{
   font-size: 3.8rem;
@@ -61,6 +67,12 @@ a:hover{
 /* Content Styles
 ***********************/
 
+.page-content{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+}
+
 .page-content h1{ font-size: 3.6rem; }
 .page-content h2{ font-size: 3.1rem; }
 .page-content h3{ font-size: 2.6rem; }
@@ -88,7 +100,7 @@ a:hover{
   margin-bottom: 3rem;
 }
 
-.article-content img, .article-img{
+.article img, .article{
   /* taken from Skeleton's .u-max-full-width */
   max-width: 100%;
   box-sizing: border-box;
@@ -97,32 +109,21 @@ a:hover{
   margin-bottom: 1rem;
 }
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
-  .article .article-header{
-    margin-top: 9rem;
-    margin-bottom: 7rem;
-  }
 
-  .article-content > p, .article h1, .article .article-text{
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+/* Footer Styles
+***********************/
 
-  .article-content p{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-
-  .article-content img{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
+.page-footer{
+  padding-bottom: 40px;
+  text-align: center;
 }
 
-/* Specific Styles
-***********************/
+.page-footer img{
+  /* taken from Skeleton's .u-max-full-width */
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 
 .social{
   margin-top: 40px;
