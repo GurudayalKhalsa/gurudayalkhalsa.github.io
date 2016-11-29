@@ -109,6 +109,11 @@ a:hover{
   margin-bottom: 1rem;
 }
 
+.project a{
+  text-decoration: none;
+  color: #333;
+}
+
 
 /* Footer Styles
 ***********************/
